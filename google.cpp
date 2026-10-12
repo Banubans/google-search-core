@@ -1,5 +1,11 @@
 #include <iostream>
 #include <string>
+
+void renderImageAnswer() {
+	std::cout << "[GOOGLE IMAGES]: Наглядная графическая схема процесса:" << std::endl;
+	std::cout << "https://habrastorage.org/getpro/habr/upload_files/fa9/ca1/555/fa9ca1555a7678106c431dcb01d7ef.png" << std::endl;
+}
+
 int main() {
  std::string query = "как выйти из vim в 2026 году";
  std::cout << "================ GOOGLE SEARCH CORE ================" <<
@@ -12,5 +18,6 @@ std::endl;
 std::endl;
  std::cout << "Найдено результатов: 1 420 000 (за 0.042 сек)" <<
 std::endl;
+ renderImageAnswer();
  return 0;
 }
